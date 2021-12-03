@@ -14,6 +14,7 @@ execute_only_model:
 run_multiple_experiments:
 	mlflow run . -P hydra_options="-m \
 	hydra/launcher=joblib \
+	main.execute_steps='random_forest' \
 	random_forest_pipeline.random_forest.n_estimators=300,400 \
 	random_forest_pipeline.random_forest.max_depth=range(6,10,2)"
 
