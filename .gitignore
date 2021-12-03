@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+multirun/*
+outputs/*
+mlruns/*
+*/wandb/*
+*.csv
+evaluate/artifacts/*
+*.parquet
