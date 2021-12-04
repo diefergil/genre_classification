@@ -135,3 +135,4 @@ mlruns/*
 *.csv
 evaluate/artifacts/*
 *.parquet
+model/*
